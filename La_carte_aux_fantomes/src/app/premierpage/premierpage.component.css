@@ -1,0 +1,11 @@
+.container{
+    background-color: rgba(236, 232, 232, 0.945) !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.container p {
+    font-size: small;
+}
