@@ -6,6 +6,10 @@
     font-family: 'Bangers', cursive;
 }
 
+.container ul li{
+    text-align: justify;
+}
+
 .container p {
     font-size: small;
 }
