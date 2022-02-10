@@ -29,9 +29,9 @@ export class PremierpageComponent implements OnInit {
         mapboxgl.accessToken = 'pk.eyJ1IjoicmFwaGFlbDMxODYiLCJhIjoiY2t6ZTVub3Q0Mmc1cjJ2bnhnYWNqb2sxbSJ9.1_BvoAslFg2Qp7aOaB8g9w';
         var map = new mapboxgl.Map({
           container: 'map',
-          style: 'mapbox://styles/mapbox/streets-v11',
-          center: [1.7,47.581,-0.857],
-          zoom: 4.25,
+          style: 'mapbox://styles/raphael3186/ckze9pru8007h14qekrkdnzbq',
+          center: [2.57,46.779,-2.664],
+          zoom: 4.50,
     });
   }
 
