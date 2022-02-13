@@ -35,3 +35,24 @@
 .glowing-border section strong{
     align-self: center;
 }
+
+.accordion {
+    background-color: rgba(236, 232, 232, 0.945) !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.accordion-button::after{
+    background-image: url(../../assets/svg/fleche.png);
+}
+
+.accordion-button:focus{
+    box-shadow: 0 0 1rem #1d1f29; 
+    border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed){
+    color: gray;
+}
