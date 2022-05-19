@@ -1,0 +1,58 @@
+.container{
+    background-color: rgba(236, 232, 232, 0.945) !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.container ul li{
+    text-align: justify;
+}
+
+.container p {
+    font-size: small;
+}
+
+.glowing-border {
+    border: 2px solid #474d70f8;
+    border-radius: 5px;
+    
+}
+
+.glowing-border:focus { 
+    outline: none;
+    border-color: #9ecaed;
+    box-shadow: 0 0 10px #9ecaed;
+}
+
+.glowing-border section {
+    justify-content: space-between;
+    display: flex !important;
+    margin: 5px;
+}
+
+.glowing-border section strong{
+    align-self: center;
+}
+
+.accordion {
+    background-color: rgba(236, 232, 232, 0.945) !important;
+    border-radius: 5px;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Bangers', cursive;
+}
+
+.accordion-button::after{
+    background-image: url(../../assets/svg/fleche.png);
+}
+
+.accordion-button:focus{
+    box-shadow: 0 0 1rem #1d1f29; 
+    border-radius: 5px;
+}
+
+.accordion-button:not(.collapsed){
+    color: gray;
+}

@@ -1,0 +1,25 @@
+.position-relative{
+    background-color: rgba(236, 232, 232, 0.87);
+    box-shadow: 0.5rem 0.5rem rgba(155, 147, 147, 0.938);
+    font-family: 'Bangers', cursive;
+   
+ 
+    
+}
+
+.position-relative:before {
+   content: "";
+    position: fixed;
+    height: 100%; width: 100%;
+    background: url(../../assets/logoLCAF.png);
+    background-size: cover;
+    z-index: -10; /* Keep the background behind the content */     
+    -webkit-filter: blur(7px);
+    background-size: 80%; /* version standardisée */
+    background-position: 0%;
+}
+
+.col-md-8{
+    background-image: url(../../assets/logoLCAF.png);
+}
+
